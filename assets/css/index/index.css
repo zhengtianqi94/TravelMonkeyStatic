@@ -135,6 +135,10 @@ a:hover {
     color: rgb(0, 127, 179)
 }
 
+button a:hover{
+    color: white;
+}
+
 .socialmediaicons ul {
     margin-top: 0.5%;
     padding: 0;
