@@ -7,7 +7,7 @@
 }
 
 .offer-section {
-    background-color: rgba(0, 191, 255, 0.61);
+    background-color: #b3edff;
 }
 
 .photo-section {
@@ -55,6 +55,10 @@
 
 .slide-content {
     text-align: center;
+}
+
+.offer-head{
+    color: #fff;
 }
 
 .brand-text {
@@ -135,7 +139,7 @@ a:hover {
     color: rgb(0, 127, 179)
 }
 
-button a:hover{
+button a:hover {
     color: white;
 }
 

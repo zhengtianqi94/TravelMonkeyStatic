@@ -1,3 +1,17 @@
+.about-head {
+    height: 400px;
+    background-image: url("../../img/backgrounds/about.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.about-header {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10%;
+    padding: 0;
+}
+
 .aboutus-section {
     padding: 90px 0;
 }

@@ -1,12 +1,27 @@
-body {
+/*body {*/
+    /*background-image: url("../../img/backgrounds/1.jpg");*/
+    /*background-size: cover;*/
+/*}*/
+
+.login-head {
+    height: 400px;
     background-image: url("../../img/backgrounds/1.jpg");
     background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.login-header {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10%;
+    padding: 0;
 }
 
 /***** Top content *****/
 
 .inner-bg {
-    padding: 60px 0 80px 0;
+    padding: 0 0 80px 0;
 }
 
 .top-content .text {
@@ -40,7 +55,7 @@ body {
 
 .form-top {
     overflow: hidden;
-    padding: 0 25px 15px 25px;
+    padding: 0 25px 0 25px;
     background: #fff;
     -moz-border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
@@ -69,8 +84,7 @@ body {
 }
 
 .form-bottom {
-    padding: 25px 25px 30px 25px;
-    background: #eee;
+    padding: 0 25px 30px 25px;
     -moz-border-radius: 0 0 4px 4px;
     -webkit-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
@@ -104,7 +118,7 @@ body {
 .middle-border {
     min-height: 300px;
     margin-top: 100px;
-    border-right: 1px solid #fff;
-    border-right: 1px solid rgba(255, 255, 255, 0.6);
+    border-right: 1px solid #000;
+    border-right: 1px solid #000;
 }
 
