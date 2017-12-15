@@ -1,3 +1,18 @@
+.result-head {
+    height: 400px;
+    background-image: url("../../img/backgrounds/results.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.result-header {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10%;
+    padding: 0;
+}
+
 .list-group {
     border-radius: 0;
 }
@@ -27,6 +42,15 @@
     display: block;
     width: 56px;
     height: 56px;
+}
+
+@media (max-width: 1024px) {
+
+    .login-head{
+        background-image: none;
+        background-color: rgba(0, 191, 255, 0.5);;
+    }
+
 }
 
 .list-group .list-group-item .row-picture img,

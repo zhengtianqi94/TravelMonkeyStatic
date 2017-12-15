@@ -1,3 +1,18 @@
+.view-head {
+    height: 400px;
+    background-image: url("../../img/backgrounds/view.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.view-header {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10%;
+    padding: 0;
+}
+
 .post {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -9,4 +24,13 @@
 
 .container {
     margin-top: 2%;
+}
+
+@media (max-width: 1024px) {
+
+    .view-head{
+        background-image: none;
+        background-color: rgba(0, 191, 255, 0.5);;
+    }
+
 }
