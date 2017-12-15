@@ -1,8 +1,3 @@
-/*body {*/
-    /*background-image: url("../../img/backgrounds/1.jpg");*/
-    /*background-size: cover;*/
-/*}*/
-
 .login-head {
     height: 400px;
     background-image: url("../../img/backgrounds/1.jpg");
@@ -122,3 +117,11 @@
     border-right: 1px solid #000;
 }
 
+@media (max-width: 1024px) {
+
+    .login-head{
+        background-image: none;
+        background-color: rgba(0, 191, 255, 0.5);;
+    }
+
+}

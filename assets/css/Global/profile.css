@@ -1,3 +1,18 @@
+.profile-head {
+    height: 400px;
+    background-image: url("../../img/backgrounds/profile.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.profile-header {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10%;
+    padding: 0;
+}
+
 #content_middle_position {
     position: relative;
     float: left;
@@ -270,4 +285,13 @@ div.SideBarItem img {
     font-size: 14px;
     line-height: 22px;
     margin: 0 0 35px;
+}
+
+@media (max-width: 1024px) {
+
+    .profile-head{
+        background-image: none;
+        background-color: rgba(0, 191, 255, 0.5);;
+    }
+
 }
