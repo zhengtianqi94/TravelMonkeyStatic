@@ -57,7 +57,7 @@
     text-align: center;
 }
 
-.offer-head{
+.offer-head {
     color: #fff;
 }
 
@@ -169,6 +169,10 @@ button a:hover {
 .nav-item {
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.navbar-brand {
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {
