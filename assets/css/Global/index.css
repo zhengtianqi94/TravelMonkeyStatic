@@ -95,6 +95,30 @@
     border-color: rgba(0, 191, 255, 0.8);
 }
 
+.btn-success {
+    color: #fff;
+    background-color: rgba(32, 224, 36, 0.8);
+    border-color: rgba(33, 235, 37, 0.8);
+}
+
+.btn-success:hover {
+    color: white;
+    background-color: rgba(33, 235, 37, 0.5);
+    border-color: rgba(32, 224, 36, 0.8);
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: rgba(220, 0, 21, 0.8);
+    border-color: rgba(246, 0, 21, 0.8);
+}
+
+.btn-danger:hover {
+    color: white;
+    background-color: rgba(246, 0, 21, 0.5);
+    border-color: rgba(220, 0, 21, 0.8);
+}
+
 .padding-div {
     text-align: center;
     padding: 25px;
