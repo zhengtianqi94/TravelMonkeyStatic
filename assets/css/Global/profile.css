@@ -43,10 +43,6 @@ input, textarea {
     height: 7.5em;
 }
 
-#LeftSideBar {
-    position: relative;
-    padding: 25px;
-}
 
 a.homelink1,
 a.homelink1:hover,
@@ -287,11 +283,11 @@ div.SideBarItem img {
     margin: 0 0 35px;
 }
 
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {*/
 
-    .profile-head{
-        background-image: none;
-        background-color: rgba(0, 191, 255, 0.5);;
-    }
+    /*.profile-head{*/
+        /*background-image: none;*/
+        /*background-color: rgba(0, 191, 255, 0.5);;*/
+    /*}*/
 
-}
+/*}*/
